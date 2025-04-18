@@ -63,7 +63,7 @@ namespace ConsoleApp1
             bool CanIBuyisEquipAxe = false;
             bool CanIBuyisEquipSpear = false;
 
-            if ()
+            
 
                 if (selectForEuqip == "0")
                 {
