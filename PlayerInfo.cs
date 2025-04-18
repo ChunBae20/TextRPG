@@ -19,8 +19,8 @@ namespace ConsoleApp1
         public int gold = 1500;
 
 
-        public void InputOne()//dksl 여기서 씨 스태틱쓰면 딸깍 이긴한데 레벨같은 변수도 다 스태틱으로 바꿔야도ㅓㅣ네 이러면 나중에 캐릭터 여러개일때 안되잖아.
-                            //지금 여기서 스태틱 안썼는데 메인씬에서  PlayerInfo.InputOne();스태틱마냥 써서 오류발생중임정신나가버릴거같아그냥 과제제출용으로 딸깍마렵네
+        public void InputOne()//dksl 여기서 스태틱쓰면 딸깍 이긴한데 레벨같은 변수도 다 스태틱으로 바꿔야도ㅓㅣ네 이러면 나중에 캐릭터 여러개일때 안되잖아.
+                            //지금 여기서 스태틱 안썼는데 메인씬에서  PlayerInfo.InputOne();스태틱마냥 써서 오류발생중임
 
 
         {
@@ -44,7 +44,7 @@ namespace ConsoleApp1
 
             if (exitZero == "0")
             {
-                // MainScene.newStart();//이거는 왜 안되는데 메인씬으로 좀 처 가세요 제발
+                // MainScene.newStart();//이거는 왜 안되는데 메인씬으로 좀  가세요 제발
                 MainScene.newStart();
             }
 
