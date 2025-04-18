@@ -50,7 +50,7 @@ namespace ConsoleApp1
 
             if (exitZero == "0") //0입력받으면 메인씬으로 이동
             {
-                // MainScene.newStart();//이거는 왜 안되는데 메인씬으로 좀 처 가세요 제발
+                // MainScene.newStart();//이거는 왜 안되는데 메인씬으로  가세요 제발
                 Console.Clear();
                 MainScene.newStart();
             }
@@ -66,7 +66,7 @@ namespace ConsoleApp1
 
             while (exitZero != "0") // 0이 아니라면 채팅로그 지우고 다시 ReInput으로 이동인데 조건이 참일때 계속 반복하는거잖아
                                     //위에 if문 두개 다 해당 안되면 밑으로 내려와서 while문 실행시켜야 하는거 아님?
-                                    //if 랑 else if 랑 else 쓰면 되는거 아는데 이 게 왜 안되는데 ㅅ발
+                                    //if 랑 else if 랑 else 쓰면 되는거 아는데 이 게 왜 안되는데
             {
 
                 Console.Clear();
